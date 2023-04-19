@@ -1,0 +1,14 @@
+Lệnh đẩy code lên github
+B1: Lần đầu liên kết với github
++ Tạo repo
++ config name/email: config --global user.name "duclinh1599"
+		     config --global user.email	duclinh1599@gmail.com
++ git init
++ git remote add origin https://github.com/duclinh1599/Code_JAVA.git
++ Kiểm tra: git remote -v
+B2: add lên
++ git add .
++ git commit -m "tao thich thì tao đẩy lên"
++ git push origin master
+	git fetch origin master
+	git merge origin master
